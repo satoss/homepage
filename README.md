@@ -12,3 +12,7 @@
 * html
 * css
 * Javascript
+
+## 閲覧推奨環境
+* Chrome
+* Internet Explorer
