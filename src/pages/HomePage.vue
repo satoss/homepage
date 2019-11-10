@@ -41,7 +41,7 @@ export default {
   data () {
     return {
       title: 'Shoei Sato',
-      msg: 'Thanks for Coming',
+      msg: 'Thank you for Coming',
       pageType: 1,
       sections: [
         { id: 1, title: 'About', link: 'about', icon: 'fas fa-user' },
@@ -67,7 +67,7 @@ h1 {
 }
 .top-wrapper {
   padding: 10px 0 5px 0;
-  background-image: url(~@/assets/Starry_Sky.jpg);
+  background-color: gray;
   background-size: cover;
   color: white;
   border-bottom: 2px solid #dee7ec;

@@ -90,4 +90,7 @@ li {
 .text {
   font-size: 1em;
 }
+.msg {
+  margin-bottom: 15px;
+}
 </style>

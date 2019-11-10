@@ -3,7 +3,7 @@
     <h1 class="section-index">Contact</h1>
     <form id="inquiry" @submit="checkForm" method="post" class="form-horizontal" novalidate="true">
       <fieldset>
-        <legend>お問い合わせ</legend>
+        <p id="msg">お問い合わせ</p>
         <div v-if="!isSubmit">
           <p v-if="errors.length">
             <ul>
@@ -93,6 +93,11 @@ export default {
   }
   button{
     width: 70px;
+  }
+  #msg {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 14px;
   }
 
 </style>
