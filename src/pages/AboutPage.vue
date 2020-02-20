@@ -51,46 +51,6 @@ export default {
 }
 </script>
 
-<style scoped>
-table {
-  border: 1px solid #ddd;
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 2em;
-}
-#table-block {
-  padding: 0 100px;
-}
-.table th,
-.table td {
-  padding: 10px;
-  border: 1px solid #ddd;
-}
-.table th {
-  background-color: #f5f5f5;
-}
-@media screen and (min-width: 600px) {
-  .table th {
-    width: 20%;
-  }
-
-  .table td {
-    width: 80%;
-  }
-}
-li {
-  display: list-item;
-  text-align: left;
-  margin-bottom: 10px;
-}
-.caption {
-  font-size: 1.1em;
-  font-weight: bold;
-}
-.text {
-  font-size: 1em;
-}
-.msg {
-  margin-bottom: 15px;
-}
+<style lang="scss" scoped>
+@import "../scss/AboutPage.scss";
 </style>

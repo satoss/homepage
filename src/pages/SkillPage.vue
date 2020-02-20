@@ -74,17 +74,6 @@ export default {
 }
 </script>
 
-<style scoped>
-li {
-  display: list-item;
-  margin-bottom: 10px;
-}
-strong {
-  font-size: 20px;
-}
-.inline-block {
-  display: inline-block;
-  margin: 30px;
-  vertical-align: top;
-}
+<style lang="scss" scoped>
+@import "../scss/SkillPage.scss";
 </style>

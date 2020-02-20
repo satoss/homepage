@@ -81,23 +81,7 @@ export default {
   }
 }
 </script>
-<style scoped>
-  div.form-group > .control-label.col-md-2 {
-    white-space: nowrap;
-    padding: 0 10px;
-  }
 
-  li {
-    display: block;
-    color: red;
-  }
-  button{
-    width: 70px;
-  }
-  #msg {
-    text-align: center;
-    margin-bottom: 15px;
-    font-size: 14px;
-  }
-
+<style lang="scss" scoped>
+@import "../scss/ContactPage.scss";
 </style>
