@@ -51,20 +51,6 @@ export default {
 }
 </script>
 
-<style scoped>
-li {
-  display: list-item;
-}
-#history-block > p {
-  margin: 10px 0;
-}
-#history-block {
-  margin-bottom: 30px;
-}
-.margin-side {
-  margin: 0 10px;
-}
-#title{
-  font-weight: bold
-}
+<style lang="scss" scoped>
+@import "../scss/HistoryPage.scss";
 </style>
