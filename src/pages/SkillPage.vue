@@ -37,16 +37,18 @@ export default {
       languages: [
         {id: 1, description: 'JavaScript'},
         {id: 2, description: 'Java'},
-        {id: 3, description: 'HTML5'},
-        {id: 4, description: 'CSS3'},
-        {id: 5, description: 'VB.net'},
-        {id: 6, description: 'VBA'},
-        {id: 7, description: 'Ruby(※)'}
+        {id: 3, description: 'PHP'},
+        {id: 4, description: 'HTML5'},
+        {id: 5, description: 'CSS3'},
+        {id: 6, description: 'VB.net'},
+        {id: 7, description: 'VBA'},
+        {id: 8, description: 'Ruby(※)'}
       ],
       databases: [
         {id: 1, description: 'PostgreSQL'},
-        {id: 2, description: 'Access'},
-        {id: 3, description: 'SQL Server(※)'}
+        {id: 2, description: 'MySQL'},
+        {id: 3, description: 'Access'},
+        {id: 4, description: 'SQL Server(※)'}
       ],
       libraries: [
         {id: 1, description: 'JQuery'},
@@ -58,16 +60,14 @@ export default {
         {id: 7, description: 'Ruby on Rails(※)'}
       ],
       others: [
-        {id: 1, description: 'Linux'},
-        {id: 2, description: 'JIRA'},
-        {id: 3, description: 'Confluence'},
-        {id: 4, description: 'bitbucket'},
-        {id: 5, description: 'npm'},
-        {id: 6, description: 'Webpack'},
-        {id: 7, description: 'JSP'},
-        {id: 8, description: 'Junit'},
-        {id: 9, description: 'Tomcat'},
-        {id: 10, description: 'Illustrator'}
+        {id: 1, description: 'Sass(SCSS)'},
+        {id: 2, description: 'gulp'},
+        {id: 3, description: 'docker'},
+        {id: 4, description: 'npm'},
+        {id: 5, description: 'Webpack'},
+        {id: 6, description: 'JSP'},
+        {id: 7, description: 'Junit'},
+        {id: 8, description: 'Illustrator'}
       ]
     }
   }
