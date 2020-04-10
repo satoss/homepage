@@ -10,9 +10,7 @@
 * Vue.js
 * github
 * html
-* css
+* SCSS
 * Javascript
+* firebase
 
-## 閲覧推奨環境
-* Chrome
-* Internet Explorer
