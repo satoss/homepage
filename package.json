@@ -14,9 +14,9 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "vue": "^2.5.2",
-    "vue-good-table": "^2.18.0",
-    "vue-router": "^3.0.1",
+    "vue": "^2.6.11",
+    "vue-good-table": "^2.19.1",
+    "vue-router": "^3.1.6",
     "vue-smoothscroll": "^0.2.0"
   },
   "devDependencies": {
@@ -43,7 +43,7 @@
     "eslint-config-standard": "^10.2.1",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",
-    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-node": "^5.2.0",
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "^3.0.1",
@@ -73,9 +73,9 @@
     "vue-jest": "^1.0.2",
     "vue-loader": "^13.3.0",
     "vue-style-loader": "^3.0.1",
-    "vue-template-compiler": "^2.5.2",
+    "vue-template-compiler": "^2.6.11",
     "webpack": "^3.6.0",
-    "webpack-bundle-analyzer": "^3.4.1",
+    "webpack-bundle-analyzer": "^3.6.1",
     "webpack-dev-server": "^2.9.1",
     "webpack-merge": "^4.1.0"
   },

@@ -13,4 +13,62 @@ li {
   #title{
     font-weight: bold
   }
-  
+
+.timeline {
+  list-style: none;
+  text-align: left;
+  width: 105%;
+  li {
+    margin-bottom: 60px;
+  }
+  .timeline-date {
+    font-size: 140%;
+  }
+  h3 {
+    font-size: 22px;
+  }
+}
+
+@media ( min-width : 640px ) {
+
+  .section {
+    width:85%;
+  }
+
+  .timeline {
+    li {
+      overflow: hidden;
+      margin: 0;
+      margin-left: 80px;
+      position: relative;
+    }
+    .timeline-date {
+      width: 193px;
+      float: left;
+      margin-top: 20px;
+      font-size: 100%;
+    }
+    .timeline-content {
+      width: 75%;
+      float: left;
+      border-left: 3px #e5e5d1 solid;
+      padding-left: 80px;
+      text-align: left;
+
+      h3{
+        font-size: 18px;
+      }
+
+    }
+    .timeline-content::before {
+      content: '';
+      width: 12px;
+      height: 12px;
+      background: #6fc173;
+      position: absolute;
+      left: 188px;
+      top: 24px;
+      border-radius: 100%;
+    }
+  }
+}
